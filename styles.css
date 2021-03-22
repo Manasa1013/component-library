@@ -3,6 +3,7 @@
 
 :root{
     --primary-black : #2f363d;
+    --black : #24292e;
     --primary-white : #ECFDF5;
     --yours-green : #047857;
     --green-white : #D1FAE5;
@@ -21,6 +22,8 @@
 }
 html,body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: var(--yours-green);
 }
 
 .container{
@@ -46,3 +49,99 @@ html,body{
     0 0  0 1px rgb(233, 224, 224),
     0.1em 0.1em 1em rgba(0,0,0,0.3);;
  }
+ /* for index page */
+ .navigation{
+     background-color: var(--image-other-green);
+    color : var(--primary-white);
+    box-shadow: 1px 5px 25px 0px var(--image-other-green);
+    padding : 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    text-decoration: none;
+    /* color : white; */
+}
+
+.nav-brand a{
+    text-decoration: none;
+    color : inherit;
+}
+.navigation .nav-pills{
+    text-align: right;
+}
+.navigation .link{
+    color: var(--primary-white);
+    text-decoration: none;
+    
+}
+.navigation .link:hover{
+    color: var(--hover-black);
+    opacity: 0.8;
+    transition: all 0.2s ease-in-out;
+}
+.navigation .link-active{
+    font-weight: bolder;
+}
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: var(--primary-white);
+    box-sizing: border-box;
+}
+.link-active{
+    color: var(--yours-green);
+}
+
+.list-non-bullet{
+    list-style : none;
+    
+    padding-inline-start: 0rem;
+    
+}
+.list-item-flex{
+    display: flex;
+    flex-direction: column;
+    padding : 0rem 0.5rem;
+    color : var(--black);
+    font-weight: bold;
+    
+}
+.list-item-inline{
+    display: inline;
+    padding: 0 0.5rem;
+    color: var(--primary-white);
+}
+.showcase-list {
+    padding: 2rem;
+}
+
+.footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    padding-bottom: 0.1rem;
+    background-color: var(--image-other-green);
+    border-top-left-radius: 1rem;
+}
+.footer-header{
+    color: var(--primary-white);
+    font-weight: bold;
+    
+    padding: 1rem;
+}
+.footer .social-links{
+    display: inline;
+}
+.footer .social-links .link:hover{
+    color: var(--image-blue3);
+    transition: all 0.3s ease-in-out;
+}
+.footer .footer-copy{
+    font-weight: 800;
+    font-size: small;
+    color: var(--black);
+    padding: 1rem 0rem 0rem 0.1rem;
+}
