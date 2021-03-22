@@ -10,28 +10,83 @@
     <title>Design | cards</title>
 </head>
 <body>
-    <div class="container">
+    <div class="">
         Cards
-        <div class="flex-container">
+        <div class="container">
             Vertical card 
-                
-                   <div class="">
-                    <img  src="https://cdn3.volusion.com/4jdsg.2wu4y/v/vspfiles/photos/903711-2.jpg?v-cache=1412526070" alt="">
+            <div class="container--card">
+                <div class="card box-shadow">
+                    
+                    <div class="img--container">
+                        <img  class="product--img" 
+                        src ="https://m.media-amazon.com/images/I/81JoNaiLcLL._AC_UL480_FMwebp_QL65_.jpg" alt="" >
+                        <span class="badge__text position">NEW</span>
                     </div>
+                    <div class="product--description">
+                        <h3 class="product-name">Staedtler 965-14-NBK </h3>
+                    <h3 class="product-info">Noris Club Left-Handed Scissor</h3>
+                    <h5 class="price">Rs. 750
+                        <span class="strike-price">Rs. 1475</span> 
+                        <span class="discount">(Rs. 725 OFF)</span>
+                    </h5>
+                    </div>
+                    
+                </div>
+            </div>
+                    
             Card with dismiss
-                    <div class="">
-
+                    <div class="container--card">
+                        <div class="card box-shadow">
+                    
+                            <div class="img--container">
+                                <img  class="product--img" 
+                                src ="" alt="" >
+                                <img class="product--img"
+                                src="https://m.media-amazon.com/images/I/61eqn5KplVL._AC_UL480_FMwebp_QL65_.jpg" alt="" >
+                                <span class="badge__text position">NEW</span>
+                                <button id="unselect" class="unselect">
+                                    <em class="fas fa-times"></em>
+                                </button>
+                            </div>
+                            <div class="product--description">
+                                <h3 class="product-name">Noris Left-Handed Scissors</h3>
+                            <h3 class="product-info">Amazon Basics</h3>
+                            <h5 class="price">Rs. 750
+                                <span class="strike-price">Rs. 1475</span> 
+                                <span class="discount">(Rs. 725 OFF)</span>
+                            </h5>
+                            </div>
+                            
+                        </div>
                     </div>
-            Image with text on hovering
-                    <div class="">
+            <!-- Image with text on hovering -->
+                    <!-- <div class="container--card">
+                        <div class="card--onhover">
+                            <div class="text--overlay">
+                                <p>
+                                It deals for small hands and adult users
+                                quality cutting and comes with leads blistercard.
+                                </p>
+                            </div>
+                            <img class="product--img" src="https://m.media-amazon.com/images/I/81JoNaiLcLL._AC_UL480_FMwebp_QL65_.jpg" alt="">
+                        </div> -->
                         
-                    </div>
+                
+                    
             Text card
-                    <div class="">
-                        
+                <div class="container--card">
+                    <div class="text-card box-shadow">
+                        <h3 class = "title">Some title</h3>
+                        <h5 class = "subtitle">Some text</h5>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis laborum nobis nostrum quas consequatur.
+                        </p>
+                        <button class="button button__primary">Tweet</button>
                     </div>
+                </div>
         </div>
-
+    </div>
+    
     </div>
     
 </body>
