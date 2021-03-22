@@ -36,7 +36,13 @@ html,body{
     align-items: center;
     width: 100%;
     align-items :center;
-    border: 2px solid var(--primary-black);
+    /* border: 2px solid var(--primary-black); */
     font-weight: lighter;
     font-size: medium;
 }
+
+.box-shadow{
+    box-shadow: inset 0 -1em 1em rgba(0,0,0,0.1),
+    0 0  0 1px rgb(233, 224, 224),
+    0.1em 0.1em 1em rgba(0,0,0,0.3);;
+ }
