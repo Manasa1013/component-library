@@ -1,0 +1,26 @@
+@import url("../styles.css");
+.input--container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 500px;
+    max-width: 100%;
+    align-self: center;
+
+}
+.input{
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    width: 380px;
+    max-width: 100%;
+}
+label{
+    padding: 0.7rem 0;
+}
+.element--first{
+    padding-top: 0.7rem;
+}
+.element--last{
+    padding-bottom: 0.7rem;
+}
