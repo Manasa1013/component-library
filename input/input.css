@@ -1,20 +1,40 @@
 @import url("../styles.css");
 .input--container{
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
     flex-wrap: wrap;
     width: 500px;
     max-width: 100%;
     align-self: center;
 
 }
+.column {
+    flex-direction: column;
+    
+}
+.row{
+    flex-direction: row;
+}
 .input{
-    padding: 0.7rem;
+    padding: 0.7rem ;
     border-radius: 0.5rem;
     width: 380px;
     max-width: 100%;
+    outline: none;
 }
+.input--container .input,.input--container .button__icon{
+    opacity: 0.8;
+
+}
+.input--container .button__icon:hover,.input--container .input:hover{
+    opacity: 1;
+}
+
+.input--container .button__icon{
+    padding: 0.7rem;
+    background-color: var(--primary-white);
+    border: 1px solid white;
+}
+
 label{
     padding: 0.7rem 0;
 }
