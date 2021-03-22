@@ -29,6 +29,14 @@ html,body{
     margin: 0.5rem;
     /* border: 2px solid black; */
 }
+.badge__text{
+    background-color: var(--yours-green);
+    color: var(--primary-white);
+    font-weight: bold;
+    font-size: small;
+    padding: 0.1rem ;
+
+}
 .badge__avatar{
     box-sizing: border-box;
     width :max-content;
