@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+/* @import url('../badge/badge.css'); */
+
+:root{
+    --primary-color : #2f363d;
+    --primary-white : #ECFDF5;
+    --yours-green : #63FF8F;
+    --yours-white : #ffffff;
+    --left-out-color : rgb(31, 30, 30); 
+    --yours-dark-grey : #6B7280;
+    --image-black : #3f3d56;
+    --image-blue : rgb(63,61,86);
+    --image-blue2 : #2f2e41;
+    --image-blue3: #575a89;
+    --image-other-green :#3ff39f;
+    --hover-green : #34D399;
+    --light-yours-green : #A7F3D0;
+    --image-skincolor : #ffb9b9;
+    --shadow-grey : #fcfcfc91;
+    --hover-black : #4B5563;
+}
+html,body{
+    font-family: 'Montserrat', sans-serif;
+}
