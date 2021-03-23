@@ -33,6 +33,7 @@ html,body{
     width: max-content;
     position: relative;
     border: 2px solid transparent;
+    color: var(--black);
 }
 .avatar-image{
     border-radius: 64px;
