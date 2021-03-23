@@ -7,7 +7,7 @@
     --primary-white : #ECFDF5;
     --yours-green : #047857;
     --green-white : #D1FAE5;
-    --left-out-color : rgb(31, 30, 30); 
+    --left-out-color : #1f1e1e; 
     --yours-dark-grey : #6B7280;
     --image-black : #3f3d56;
     --image-blue : rgb(63,61,86);
@@ -20,11 +20,15 @@
     --shadow-grey : #fcfcfc91;
     --hover-black : #4B5563;
 }
-html,body{
+html{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     color: var(--yours-green);
     scroll-behavior: smooth;
+
+}
+body{
+    margin: 0;
 }
 
 .container{
@@ -86,6 +90,7 @@ html,body{
     font-weight: bolder;
 }
 .link {
+    cursor: pointer;
     text-decoration: none;
     padding: 0.5rem 1rem;
     color: var(--primary-white);
@@ -97,7 +102,7 @@ html,body{
 
 .list-non-bullet{
     list-style : none;
-    
+    cursor: pointer;
     padding-inline-start: 0rem;
     
 }
@@ -105,7 +110,6 @@ html,body{
     display: flex;
     flex-direction: column;
     padding : 0rem 0.5rem;
-    color : var(--black);
     font-weight: bold;
     
 }
@@ -147,6 +151,6 @@ html,body{
 .footer .footer-copy{
     font-weight: 800;
     font-size: small;
-    color: var(--black);
+    color: var(--yours-green);
     padding: 1rem 0rem 0rem 0.1rem;
 }
