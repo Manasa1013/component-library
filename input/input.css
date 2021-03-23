@@ -28,18 +28,22 @@
     max-width: 100%;
     outline: none;
 }
-.input--container .input,.input--container .button__icon{
+.input--container .input{
     opacity: 0.8;
-
+}
+.input--container .button__icon{
+    opacity: 0.6;
 }
 .input--container .button__icon:hover,.input--container .input:hover{
     opacity: 1;
+    transition: all 0.2s ease-in-out;
 }
 
 .input--container .button__icon{
     padding: 0.7rem;
-    background-color: var(--primary-white);
-    border: 1px solid white;
+    background-color: transparent;
+    border: 1px solid transparent;
+    outline: none;
 }
 
 label{
