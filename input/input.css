@@ -7,6 +7,13 @@
     align-self: center;
 
 }
+.container--size{
+    width: 500px;
+    max-width: 100%;
+    margin: auto ;
+    padding: 1rem;
+    
+}
 .column {
     flex-direction: column;
     
