@@ -25,7 +25,7 @@ html{
     margin: 0;
     color: var(--yours-green);
     scroll-behavior: smooth;
-
+    /* background-color: var(--black); */
 }
 body{
     margin: 0;
@@ -70,7 +70,7 @@ body{
  /* for index page */
  .navigation{
     background-color: var(--image-other-green);
-    color : var(--primary-white);
+    color : var(--yours-green);
     box-shadow: 1px 5px 25px 0px var(--image-other-green);
     padding : 1rem;
     width: 100%;
@@ -93,13 +93,13 @@ body{
     text-align: right;
 }
 .navigation .link{
-    color: var(--primary-white);
+    color: var(--yours-green);
     text-decoration: none;
     
 }
 .navigation .link:hover{
     color: var(--hover-black);
-    opacity: 0.8;
+    opacity: 0.7;
     transition: all 0.2s ease-in-out;
 }
 .navigation .link-active{
@@ -128,6 +128,10 @@ body{
     padding : 0rem 0.5rem;
     font-weight: bold;
     
+}
+.list-item-flex:hover{
+    opacity: 0.7;
+    transition: all 0.2 ease-in-out;
 }
 .list-item-inline{
     display: inline;
@@ -160,7 +164,7 @@ body{
 
 }
 .footer-header{
-    color: var(--primary-white);
+    color: var(--yours-green);
     font-weight: bold;
     
     padding: 1rem;
@@ -168,9 +172,12 @@ body{
 .footer .social-links{
     display: inline;
 }
+.footer .social-links .link {
+    color: var(--yours-green);
+}
 .footer .social-links .link:hover{
     color: var(--image-blue3);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 .footer .footer-copy{
     font-weight: 800;
