@@ -140,16 +140,24 @@ body{
 
 .footer{
     text-align: center;
-    position: fixed;
-    bottom: 0;
     width: 100%;
     padding: 1rem;
     padding-bottom: 0.1rem;
     background-color: var(--image-other-green);
     border-top-left-radius: 1rem;
 }
-.overflow {
-    position: sticky;
+.absolute {
+    position: absolute;
+    top : 0;
+}
+.relative {
+    position: relative;
+    top : 0;
+}
+.fixed {
+    position: fixed;
+    bottom: 0;
+
 }
 .footer-header{
     color: var(--primary-white);
