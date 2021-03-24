@@ -44,6 +44,8 @@ body{
     grid-area: sidebar;
     position: fixed;
     left : 0;
+    overflow-y: auto;
+    max-height: calc(100vh - 9rem);
 }
 
 .grid-item-2{
