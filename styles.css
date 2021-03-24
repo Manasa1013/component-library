@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
-/* @import url('../badge/badge.css'); */
+@import url('./alert/alert.css');
+@import url('./avatar/avatar.css');
+@import url('./badge/badge.css');
+@import url('./button/button.css');
+@import url('./cards/card.css');
+@import url('./grid/grid.css');
+@import url('./input/input.css');
+@import url('./lists/list.css');
+@import url('./modal/modal.css');
+@import url('./navbar/nav.css');
+@import url('./responsive_images/images.css');
+@import url('./text_utilities/text-utility.css');
+@import url('Toast/toast.css');
 
 :root{
     --primary-black : #2f363d;
@@ -186,4 +198,10 @@ body{
     font-size: small;
     color: var(--yours-green);
     padding: 1rem 0rem 0rem 0.1rem;
+}
+.text--black{
+    color: var(--black);
+}
+.para--text{
+    font-size: 16px;
 }
