@@ -34,7 +34,21 @@ body{
 .container{  /*name it font--enhance afterwards*/ 
     font-weight: bold;
     font-size: large;
-    
+    display: grid;
+    grid-template-areas: 'sidebar elements elements elements elements elements' ;
+    padding: 1rem;
+    /* -ms-grid-row-align: end; */
+    grid-gap: 50px 100px;
+}
+.grid-item-1{
+    grid-area: sidebar;
+    position: fixed;
+    left : 0;
+}
+
+.grid-item-2{
+    grid-area: elements;
+    padding-left: 10%;
 }
 .flex-container{
 
@@ -43,7 +57,6 @@ body{
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    align-items :center;
     /* border: 2px solid var(--primary-black); */
     font-weight: lighter;
     font-size: medium;
