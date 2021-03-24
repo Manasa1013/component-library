@@ -52,7 +52,7 @@ html,body{
 }
 
 .button__floating{
-  padding: 0.25rem 1rem;
+  padding: 0.5rem 1.2rem;
   opacity: 0.8;
   border-radius: 50%;
   background: var(--yours-green);
