@@ -20,12 +20,23 @@ html,body{
     opacity: 0.75;
     background-color: var(--yours-green);
     color : white;
+    border: 2px solid transparent;
     font-weight: 500;
     border-color: var(--yours-green);
 }
 
 .button__primary:hover{
     opacity: 1;
+ }
+ .button__secondary{
+    background-color: var(--primary-white);
+    opacity: 0.8;
+    font-weight: 500;
+    border: 2px solid var(--yours-green);
+    color: var(--yours-green);
+ }
+ .button__secondary:hover{
+     opacity: 1;
  }
  .button__link{
      background-color: var(--primary-white);
