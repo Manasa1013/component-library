@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css"
      integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q" crossorigin="anonymous">
+     <link rel="stylesheet" href="list.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="badge.css">        
-    <title>Design | badge</title>
+    <title>design | list</title>
 </head>
 <body>
     <header>
@@ -66,43 +66,66 @@
             </ul>
         </div>
         <div class="grid-item-2">
-            Badges
-            <div class="flex-container">
-                Text badge
-                <div class="badge">
-                    <div class="badge__text">
-                        NEW
-                     </div>
-                </div> 
-                <div class="badge">
-                    <div class="badge__text">
-                         COUPON
-                     </div>
-                </div>
-                Icons with badges
-                 <div class="badge">
-                    
-                       <div class="badge__icons">
-        
-                            <em class="fas fa-shopping-cart fa-2x">
-                            </em>
-                            <span class="index">27</span>
-                        </div>
-                </div> 
-                Avatars with badges
-                    <div class="badge">
-                        <div class="badge__avatar">
-                            <div class="avatar-image">
-                                <img class="img" src="https://lh3.googleusercontent.com/ogw/ADGmqu-QrMMdPcf2GK2keccj2iCssYvo4zJpmthlcnb3Ts4=s83-c-mo" alt="Photo" />
-                            </div>
-                            <span class="index">23</span>
-                        </div>
-                   </div>
-            
-               
+            <div class="flex--container">
+                List groups simple ones
+                <ul  class="list-non-bullet" >
+                    <li class="list-item-flex border">                    
+                        Home
+                    </li>
+                    <li class="list-item-flex border">
+                        Activity
+                    </li>
+                    <li class="list-item-flex border">
+                        Saved
+                    </li>
+                    <li class="list-item-flex border">
+                        Playlists
+                    </li>
+                    <li class="list-item-flex border">
+                        Liked
+                    </li>
+                    <li class="list-item-flex border">
+                        Downloads
+                    </li>
+                </ul>
             </div>
+            <!-- <div class="flex--container">
+                Stacked lists in notification tab
+                <ul class="list-non-bullet">
+                    <li class="list-item-flex text">
+                        <div class="container-list--notif flex-align width border active">
+                            
+                            <div class="flex" >
+                                <h3 class="align-left ">List heading 1</h3>
+                                <small class="small inline align-right">1 day ago</small>
+                            </div>
+                                <p class="text">Some more text regarding the notification</p>
+                            <small class="small">Small heading</small>
+                        </div>
+                    </li>
+                    <li class="list-item-flex">
+                        <div class="container-list--notif border flex-align width border">
+                            <h3 class="h3 align-left inline">List heading 1</h3>
+                            <div class="align-right inline">
+                                <small class="small">1 day ago</small>
+                            </div>
+                            <p class="text">Some more text regarding the notification</p>
+                            <small class="small">Small heading</small>
+                        </div>
+                    </li>
+                    <li class="list-item-flex">
+                        <div class="container-list--notif border flex-align width border">
+                            <h3 class="h3 align-left">List heading 1</h3>
+                            <div class="align-right">
+                                <small class="small">1 day ago</small>
+                            </div>
+                            <p class="text">Some more text regarding the notification</p>
+                            <small class="small">Small heading</small>
+                        </div>
+                    </li>
+                </ul>
+            </div> -->
         </div>
-        
         
     </div>
 </body>

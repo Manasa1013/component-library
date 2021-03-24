@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+@import url("../styles.css");
 :root{
     --grey : #808080;
     --color-blue : #004085;
-    --background-blue : hsl(211, 100%, 90%);
+    --background-blue : #cce5ff;
     --border-blue : #b8daff;
     --color-gray : #383d41;
     --background-gray : #e2e3e5;
@@ -37,9 +38,9 @@ html,body{
     font-weight: light;
 }
 .alert-primary{
-    color: var(--color-blue);
-    background-color: var(--background-blue);
-    border-color: var(--border-blue);
+    color: var(--color-green);
+    background-color: var(--light-yours-green);
+    border-color: var(--lighter-green);
     border-radius: 0.3rem;
     width: 70%;
     border : 1px solid transparent;
