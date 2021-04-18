@@ -16,6 +16,7 @@
 :root{
     --primary-black : #2f363d;
     --black : #24292e;
+    --white : #fff;
     --primary-white : #ECFDF5;
     --yours-green : #047857;
     --green-white : #D1FAE5;
@@ -31,13 +32,14 @@
     --image-skincolor : #ffb9b9;
     --shadow-grey : #fcfcfc91;
     --hover-black : #4B5563;
+    --subtext-grey : #6b7280;
 }
 html{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     color: var(--yours-green);
     scroll-behavior: smooth;
-    /* background-color: var(--black); */
+    background-color: var(--white);
 }
 body{
     margin: 0;
