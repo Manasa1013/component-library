@@ -4,30 +4,138 @@
 @import url('../button/button.css');
 @import url('../styles.css');
 
-.container--card {
-    padding: 1rem;
-    border: 2px solid black;
+
+*{
+    /* border: 1px solid red; */
+    font-family: 'Titillium Web', sans-serif;
+}
+:root{
+    --yours-green : #047857;
+    --orange : orange;
+}
+body, html{
+    margin: 0;
+    padding: 0;
+}
+.card__container{
+    border-radius: 0.2rem;
+    /* border : 1px solid transparent; */
+    overflow : hidden;
+    display: flex;
+    width: 15rem;
+    height: 25rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content : space-evenly;
+    position: relative;
+    
+}
+.product--desc{
+    padding: 0.75rem  0.75rem 0.25rem 0.75rem ;
+    flex-grow: 2;
+}
+.product--name{
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+    line-height: 1rem;
+}
+.product--info{
+    color: var(--subtext-grey);
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    font-weight: 400;
+    font-size: 0.85rem;
+    line-height: 0.75rem;
+}
+.product--price{
+    line-height: 0.75rem;
+    color : var(--black);
+    font-weight: 400;
+    padding: 0.1rem 0.05rem 0.2rem 0.05rem;
+}
+.price{
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--black);
+    padding: 0.1rem 0.05rem 0.2rem 0.05rem;
+}
+.strike--price{
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-decoration: line-through;
+    color: var(--subtext-grey);
+    padding: 0.1rem 0.05rem 0.2rem 0.05rem;
+}
+.discount{
+    font-size: 0.8rem;    
+    font-weight: 400;
+    color : var(--orange);
+}
+.shadow-lg{
+    box-shadow: inset 0 -1em 1em rgba(0,0,0,0.1),
+    0 0  0 1px rgb(233, 224, 224),
+    0.1em 0.1em 1em rgba(0,0,0,0.3);;
+    /* try to give drop shadow */
+}
+.w-full{
+    max-width: 60%;
+}
+.pos{
+    position: absolute;
+    opacity: 30%;
+    bottom: 33%;
+    right: 5%;
+    color: var(--yours-green);
+    background-color: var(--light-yours-green);
+    border-radius: 50%;
+    border: transparent;
+    padding: 0.5rem 0.5rem 0.4rem 0.5rem;
+}
+.img__container{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
- }
- .card{
-     display: flex;
-     flex-direction: column;
-    margin-bottom: 0.7rem;
-    width: fit-content;
-    font-weight: lighter;
-    }
- 
- .img--container{
-    position: relative;
-    display: block;
-    /* border: 2px solid black; */
+    justify-content: center;
+    height: 70%;
+    max-width: 70%;
+    flex-shrink: 6;
+    /* filter: drop-shadow(1px 1px 1px gray); */
+    /* border: 1px solid black; */
 }
-p{
-    line-height: 1.5rem;
+.button__container{
+    max-width: 15rem;
+    padding: 0 0.1rem 0.1rem 0.1rem;
 }
+.card__container :hover .pos{
+    opacity: 1;
+    /* max-width: 120%; */
+}
+.pos:hover{
+    opacity: 100%;
+    bottom: 35%;
+    transition: all 0.2s ease-in-out;
+}
+.p-10{
+    padding: 2.5rem;
+}
+.grid{
+    display: grid;
+}
+.grid-cols-1{
+    grid-template-columns: repeat(6, minmax(auto, 1fr));
+}
+.gap-5{
+    gap : 1.25rem;
+}
+/* imported card from default.css */
+
+
+
+
+
+
+
 .img--container:hover .unselect{
     opacity: 1;
 }
@@ -48,32 +156,6 @@ p{
     background-color : var(--image-other-green);
     color: var(--hover-green);
 }
-.product-description{
-    display: inline-flex;
-    
-}
-.product-name{
-    flex-grow: 1;
-    font-weight: bold;
-}
-.product-info{
-    flex-shrink: 2;
-    font-weight: 400;
-    color: gray;
-    font-size: 1rem;
-}
-.price .strike-price {
-    flex-shrink: 2;
-    text-decoration: line-through;
-    color: var(--subtext-gray);
-    font-weight: 400;
-    
-}
-.price .discount{
-    flex-shrink: 3;
-    color : orange;
-    font-weight: large;
-}
 .card--onhover {
     position: relative;
   }
@@ -93,6 +175,18 @@ p{
     padding: 1rem;
     border-radius: 0.7rem;
     display: block;
-    width: 50%;
+    height: auto;
+    max-width: 70%;
     justify-content: center;   
+}
+
+.subtitle{
+    font-size: 1.1rem;
+    color: var(--yours-dark-grey);
+}
+.text-card > p{
+    opacity: 80%;
+    line-height: 1.5rem;
+    color: var(--hover-black);
+    font-size: 1rem;
 }

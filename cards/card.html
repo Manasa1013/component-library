@@ -25,92 +25,130 @@
     </header>
         <div class="container">
             <div class="grid-item-1">
-                <ul  class="list-non-bullet" >
-                    <li class="list-item-flex" >
-                        <a class = "link link-active" href="../alert/alert.html">Alert</a>
-                    </li>
-                    <li class="list-item-flex">
-                        <a class = "link link-active" href="../avatar/avatar.html">Avatar</a>
-                    </li>
-                    <li class="list-item-flex">
-                        <a class = "link link-active"  href="../badge/badge.html">Badge</a>
-                    </li>
-                    <li class="list-item-flex">
-                        <a class="link link-active" href="../button/button.html">Buttons</a>
-                    </li>
-                    <li class="list-item-flex">
-                        <a class = "link link-active" href="../cards/card.html">Cards</a>
-                    </li>
-                    <li class="list-item-flex">
-                        <a class = "link link-active" href="../input/input.html">Input elements</a>
-                    </li>
-                    <li class="list-item-flex">
-                        <a class = "link link-active"  href="../lists/list.html">Lists</a>
-                    </li>
-                    <li class="list-item-flex">
-                        <a class = "link link-active"  href="../navbar/nav.html">Navbar</a>
-                    </li>
-                    <li class="list-item-flex">
-                        <a class = "link link-active"  href="../modal/modal.html">Modal</a>
-                    </li>
-                    <li class="list-item-flex">
-                        <a class = "link link-active"  href="../grid/grid.html">Grid</a>
-                    </li>
-                    <li class="list-item-flex">
-                        <a class = "link link-active"  href="../text_utilities/text-utility.html">Text-utilities</a>
-                    </li>
-                    <li class="list-item-flex">
-                        <a class = "link link-active"  href="../Toast/toast.html">Toast & Others</a>
-                    </li>
-                </ul>
+                <div class="sidebar__container">
+                    <div class="sidebar__divider"><hr></div>
+                        <div class="sidebar__link--container">
+                            <div class="sidebar__link">
+                                <a href="/alert/alert.html" class="link--text">
+                                    Alert
+                                </a>
+                            </div>
+                            <div class="sidebar__link">
+                                <a href="../avatar/avatar.html" class="link--text">
+                                    Avatar
+                                </a>
+                            </div>
+                            <div class="sidebar__link">
+                                <a href="../badge/badge.html" class="link--text">
+                                    Badge
+                                </a>
+                            </div>
+                            <div class="sidebar__link">
+                                <a href="../button/button.html" class="link--text">
+                                    Button
+                                </a>
+                            </div>
+                            <div class="sidebar__link">
+                                <a href="../cards/card.html" class="link--text active">
+                                    Cards
+                                </a>
+                            </div>
+                            <div class="sidebar__link">
+                                <a href="../input/input.html" class="link--text">
+                                    Input elements
+                                </a>
+                            </div>
+                            <div class="sidebar__link">
+                                <a href="../lists/list.html" class="link--text">
+                                    Lists
+                                </a>
+                            </div>
+                            <div class="sidebar__link">
+                                <a href="../navbar/nav.html" class="link--text">
+                                    Navbar
+                                </a>
+                            </div>
+                            <div class="sidebar__link">
+                                <a href="../modal/modal.html" class="link--text">
+                                    Modal
+                                </a>
+                            </div>
+                            <div class="sidebar__link">
+                                <a href="../grid/grid.html" class="link--text">
+                                    Grid
+                                </a>
+                            </div>
+                            <div class="sidebar__link">
+                                <a href="../text_utilities/text-utility.html" class="link--text">
+                                    Text-utilities
+                                </a>
+                            </div>
+                            <div class="sidebar__link">
+                                <a href="../Toast/toast.html" class="link--text">
+                                    Toast &Others
+                                </a>
+                            </div>
+                    </div>
+                </div>
             </div>
             <div class="grid-item-2">
             Cards
-                <div class="flex--container ">
-                    Vertical card 
-                    <!-- <div class="container--card"> -->
-                        <div class="card box-shadow">
-                            
-                            <div class="img--container">
-                                <img  class="product--img" 
-                                src ="https://m.media-amazon.com/images/I/81JoNaiLcLL._AC_UL480_FMwebp_QL65_.jpg" alt="" >
-                                <span class="badge__text position">NEW</span>
+            <div class="p-10 grid grid-cols-1 gap-5 box">
+
+                        <div class="card__container shadow-lg">
+                            <div class="img__container">
+                              <img class="w-full" src="https://m.media-amazon.com/images/I/81bVWToS8bL._AC_UL320_.jpg" alt="Left handed guitar">
                             </div>
-                            <div class="product--description">
-                                <h3 class="product-name">Staedtler 965-14-NBK </h3>
-                                <h3 class="product-info">Noris Club Left-Handed Scissor</h3>
-                                <h5 class="price">Rs. 750
-                                    <span class="strike-price">Rs. 1475</span> 
-                                    <span class="discount">(Rs. 725 OFF)</span>
-                                </h5>
+                            <span class="badge__text position">NEW</span>
+                              <button class="pos">
+                                <em class="far fa-heart fa-lg"></em>
+                               </button>
+                            <div class="product--desc">
+                              <div class="product-name">Staedtler 965-14-NBK Noris Club Left-Handed scissor
+                              </div>
+                              <p class="product--info">
+                                Left handed Scissors
+                              </p>
+                              <div class="product--price">
+                                <span class="price">$3909</span>
+                                <span class="strike--price">$8909</span>
+                                <span class="discount">($4000 OFF)</span>
+                              </div>
+                                
                             </div>
+                            <div class="button__container">
+                              <button class="button button__primary">
+                                Add to Cart
+                            </button>
+                            </div>
+                          </div>
                             
-                        </div>
-                    <!-- </div> -->
-                            
-                    Card with dismiss
-                            <!-- <div class="container--card"> -->
-                                <div class="card box-shadow">
-                            
-                                    <div class="img--container">
-                                        <img class="product--img"
+                                <div class="card__container shadow-lg">
+                                    <div class="img__container">
+                                        <img class="w-full"
                                         src="https://m.media-amazon.com/images/I/61eqn5KplVL._AC_UL480_FMwebp_QL65_.jpg" alt="" >
-                                        <span class="badge__text position">NEW</span>
-                                        <button id="unselect" class="unselect">
-                                            <em class="fas fa-times"></em>
-                                        </button>
                                     </div>
-                                    <div class="product--description">
-                                        <h3 class="product-name">Noris Left-Handed Scissors</h3>
-                                    <h3 class="product-info">Amazon Basics</h3>
-                                    <h5 class="price">Rs. 750
-                                        <span class="strike-price">Rs. 1475</span> 
-                                        <span class="discount">(Rs. 725 OFF)</span>
-                                    </h5>
+                                    <span class="badge__text position">NEW</span>
+                                        <button id="unselect" class="unselect">
+                                            <em class="fas fa-times fa-lg"></em>
+                                        </button>
+                                    <div class="product--desc">
+                                        <div class="product-name">Noris Left-Handed Scissors</div>
+                                    <p class="product--info">Amazon Basics</p>
+                                    <div class="product--price">
+                                        <span class="price">$3909</span>
+                                        <span class="strike--price">$8909</span>
+                                        <span class="discount">($4000 OFF)</span>
+                                      </div>
+                                        
+                                    </div>
+                                    <div class="button__container">
+                                      <button class="button button__primary">
+                                        Add to Cart
+                                    </button>
                                     </div>
                                     
                                 </div>
-                            <!-- </div> -->
                     <!-- Image with text on hovering -->
                             <!-- <div class="container--card">
                                 <div class="card--onhover">
@@ -122,9 +160,7 @@
                                     </div>
                                     <img class="product--img" src="https://m.media-amazon.com/images/I/81JoNaiLcLL._AC_UL480_FMwebp_QL65_.jpg" alt="">
                                 </div> -->   
-                    Text card
-                        <!-- <div class="container--card"> -->
-                            <div class="text-card box-shadow">
+                            <div class="text-card shadow-lg">
                                 <h3 class = "title">Some title</h3>
                                 <h5 class = "subtitle">Some text</h5>
                                 <p>
@@ -132,7 +168,6 @@
                                 </p>
                                 <button class="button button__primary">Tweet</button>
                             </div>
-                        <!-- </div> -->
                 </div>
             </div>
             

@@ -11,13 +11,14 @@ html,body{
     cursor: pointer;
     text-align: center;
     outline: none;
-    border-radius: 0.5rem;
+    border-radius: 0.2rem;
     font-size: 1rem;
     text-align: center;
 }
 
 .button__primary{
-    opacity: 0.75;
+    max-width: max-content;
+    opacity: 75%;
     background-color: var(--yours-green);
     color : white;
     border: 2px solid transparent;
