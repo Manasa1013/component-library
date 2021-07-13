@@ -2,6 +2,8 @@
  A full-length component library where you can find styles for usual components.
  ## Components available
  * Card for ecommerce
+ * Badge 
+ * Alerts
  * Modal 
  * Grid styled components
  * List with text 
